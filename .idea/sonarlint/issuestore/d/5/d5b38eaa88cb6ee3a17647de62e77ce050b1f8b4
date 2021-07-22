@@ -1,0 +1,10 @@
+
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(Áâ”ã8”³ö§¬/
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(ô™Ãáøÿÿÿÿ8ãÍ¨¬/
+U	java:S106,"9Replace this use of System.out or System.err by a logger.(‘ÁğÊ8“¦›¨¬/
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(Ä‡âÈ8’¦›¨¬/
+p
+java:S1128"TRemove this unused import 'guru.springframework.sfgdi.services.GreetingServiceImpl'.(È‹îE8ŸÆ’¨¬/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(õı8Ÿ÷‰¨¬/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ò°ÿº8‹ª¦¬/
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(–­óßÿÿÿÿÿ8ŞÅ¢¨¬/
