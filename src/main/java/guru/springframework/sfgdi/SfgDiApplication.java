@@ -1,10 +1,10 @@
 package guru.springframework.sfgdi;
 
 import guru.springframework.sfgdi.controllers.ConstructorInjectedController;
+import guru.springframework.sfgdi.controllers.I18nController;
 import guru.springframework.sfgdi.controllers.MyController;
 import guru.springframework.sfgdi.controllers.PropertyInjectedController;
 import guru.springframework.sfgdi.controllers.SetterInjectedController;
-import guru.springframework.sfgdi.services.GreetingServiceImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -15,15 +15,18 @@ public class SfgDiApplication {
 	public static void main(String[] args) {
 		ApplicationContext ctx = SpringApplication.run(SfgDiApplication.class, args);
 
+		I18nController i18nController = (I18nController) ctx.getBean("i18nController");
+		System.out.println("i18N BEAN ---------------");
+		System.out.println(i18nController.sayHello());
+
 		/**
 		 * In stead of creating a new MyController(), we ask spring to give us a bean (Java class + convention).
 		 * So now we can use it's methods. Spring is initializing a new MyController for us.
 		 */
 		MyController myController = (MyController) ctx.getBean("myController");
 
-		String greeting = myController.sayHello();
-
-		System.out.println(greeting);
+		System.out.println("PRIMARY BEAN ---------------");
+		System.out.println(myController.sayHello());
 
 
 		System.out.println("Property Based Injection ---------------");
