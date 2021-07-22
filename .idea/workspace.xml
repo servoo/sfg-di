@@ -5,34 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d38e3c5-ac53-4ee8-8120-681fb3cecd43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/I18nController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/I18nEnglishGreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/I18nSpanishGreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/PropertyInjectedGreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/SetterInjectedGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/06f65155ec73600b9fc5c4dc2883d4bb84d8e284" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/SfgDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/SfgDiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/ConstructorInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/ConstructorInjectedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/PropertyInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/PropertyInjectedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/SetterInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/SetterInjectedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/GreetingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/ConstructorInjectedGreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/I18nEnglishGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/I18nEnglishGreetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/ConstructorInjectedControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/ConstructorInjectedControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/PropertyInjectedControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/PropertyInjectedControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/SetterInjectedControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/SetterInjectedControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/SfgDiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/SfgDiApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controllers/ConstructorInjectedController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controllers/ConstructorInjectedController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controllers/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controllers/MyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controllers/PropertyInjectedController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controllers/PropertyInjectedController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controllers/SetterInjectedController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controllers/SetterInjectedController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/services/GreetingServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/guru/springframework/sfgdi/controllers/ConstructorInjectedControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guru/springframework/sfgdi/controllers/ConstructorInjectedControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/guru/springframework/sfgdi/controllers/PropertyInjectedControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guru/springframework/sfgdi/controllers/PropertyInjectedControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/guru/springframework/sfgdi/controllers/SetterInjectedControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guru/springframework/sfgdi/controllers/SetterInjectedControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +169,7 @@
       <updated>1626602460472</updated>
       <workItem from="1626602461764" duration="1727000" />
       <workItem from="1626798780975" duration="4580000" />
-      <workItem from="1626956236388" duration="3928000" />
+      <workItem from="1626956236388" duration="4636000" />
     </task>
     <servers />
   </component>
